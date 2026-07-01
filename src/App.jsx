@@ -1,9 +1,9 @@
-import Categories from "./components/Categories"
+import Home from "./views/Home"
 
 function App() {
   return (
     <>
-      <Categories />
+      <Home />
     </>
   )
 }

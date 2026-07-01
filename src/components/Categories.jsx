@@ -9,6 +9,7 @@ const Categories = () => {
                     <MenuCard
                         key={menu.codigo}
                         nombre={menu.nombre}
+                        descripcion={menu.descripcion}
                         precio={menu.precio}
                     />
                 ))}
