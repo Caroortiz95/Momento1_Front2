@@ -1,12 +1,12 @@
 import Header from "../components/Header"
 import Categories from "../components/Categories"
-import Button from "../components/Button"
+import menu from "../db/menu"
 
 function Home() {
     return (
         <>
             <Header />
-            <Categories />
+            <Categories menu={menu} />
         </>
     )
 }
